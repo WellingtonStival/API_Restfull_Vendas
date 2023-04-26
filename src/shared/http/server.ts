@@ -2,7 +2,6 @@ import express from 'express';
 import cors from 'cors';
 import routes from './routes';
 import 'express-async-errors';
-import '../typeorm';
 
 const app = express();
 
